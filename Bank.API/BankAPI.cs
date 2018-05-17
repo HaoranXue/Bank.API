@@ -26,10 +26,10 @@ namespace Bank.API
         private const string Offline_access = "refresh_token";
         private const string CustomersAccounts = "accounts";
         private const string Cards = "cards";
-        private const string Transactions = "transactions";
+        //private const string Transactions = "transactions";
 
         private const string BankAPIRequestType = "application/json";
-        private const string BankAPIRefreshType = "REFRESH-TOKEN-HERE";
+        private const string BankAPIRefreshType = "application/json";
 
         private const string AuthLink = "https://auth.truelayer.com/?response_type=code&client_id=kodin-64yu&nonce=655915437&scope=info%20accounts%20balance%20transactions%20cards%20offline_access&redirect_uri=https://console.truelayer.com/redirect-page&enable_mock=true";
         

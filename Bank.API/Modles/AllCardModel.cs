@@ -7,10 +7,10 @@ using Newtonsoft.Json;
 
 namespace Bank.API.Modles
 {
-    class CardModel:AbstractModel
+    class AllCardModel:AbstractModel
     {
         [JsonProperty("account_id")]
-        public string account_id { get; set; }
+        public string Account_id { get; set; }
         [JsonProperty("card_network")]
         public string card_network { get; set; }
         [JsonProperty("card_type")]
@@ -29,5 +29,12 @@ namespace Bank.API.Modles
         public string valid_to { get; set; }
         [JsonProperty("update_timestamp")]
         public DateTime update_timestamp { get; set; }
+        [JsonProperty("provider.display_name")]
+        public string providerdisplay_name { get; set; }
+        [JsonProperty("provider.logo_uri")]
+        public string providerlogo_uri { get; set; }
+        [JsonProperty("provider.provider_id")]
+        public string providerprovider_id { get; set; }
     }
+
 }

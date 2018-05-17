@@ -48,10 +48,13 @@
     <Compile Include="IService.cs" />
     <Compile Include="Modles\AbstractModel.cs" />
     <Compile Include="Modles\AccountBalanceModel.cs" />
+    <Compile Include="Modles\AccountTransactionsModel.cs" />
     <Compile Include="Modles\Account_type.cs" />
+    <Compile Include="Modles\AllCardModel.cs" />
+    <Compile Include="Modles\CardBalanceModel.cs" />
     <Compile Include="Modles\CardModel.cs" />
     <Compile Include="Modles\RefreshTokenModel.cs" />
-    <Compile Include="Modles\TransactionModel.cs" />
+    <Compile Include="Modles\CardTransactionsModel.cs" />
     <Compile Include="Modles\Transaction_Category.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

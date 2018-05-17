@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace Bank.API.Modles
 {
-    class TransactionModel:AbstractModel
+    class CardTransactionsModel:AbstractModel
     {
         [JsonProperty("transaction_id")]
         public string transaction_id { get; set; }
@@ -13,7 +13,7 @@ namespace Bank.API.Modles
         public string description { get; set; }
         [JsonProperty("transaction_type")]
         public string transaction_type { get; set; }
-        [JsonProperty("Category")]
+        [JsonProperty("transaction_category")]
         public Transaction_Category Reference { get; set; }
         [JsonProperty("transaction_classification")]
         public Array transaction_classification { get; set; }
